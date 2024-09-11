@@ -15,3 +15,4 @@ def write_todos(arg_todos , path=FILE_PATH):
     with open(path, "w") as file_local:
         file_local.writelines(arg_todos)
 
+
